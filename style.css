@@ -67,7 +67,7 @@ body {
 
 .links-container{
     display: flex; /* setting the links container to be a flex container ; links are now side by side */
-    gap: 1 rem; /* adding a gap of 1rem between the links */
+    gap: 1rem; /* adding a gap of 1rem between the links */
     list-style: none; /* removing the default list style ; removed bullet points */
     margin-left: 7.5%; /* adding a margin to the left of the links container ; 7.5% of the total width of the browser's visible screen area */
 }
