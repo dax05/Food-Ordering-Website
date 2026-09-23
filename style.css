@@ -227,7 +227,7 @@ body {
     transition: .2s;
 }
 
-.hero-img-container{
+.hero-img-container , .food-image-container{
     min-width: 30rem;
     min-height: 30rem;
     position: relative;
@@ -346,3 +346,98 @@ body {
 }
 
 /* HERO SECTION ENDED */
+
+/* RESTAURANT SECTION STARTS */
+
+.section{
+    width: 100%;
+    padding: 2rem 0 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section{
+    position: relative;
+    padding: 6rem 10vw;
+}
+
+.section-detail{
+    width: 45%;
+    min-width: 300px;
+    margin-left: auto;
+}
+
+.section-highlight{
+    padding: .5rem 1rem;
+    border-radius: .2rem;
+    background: var(--alpha-secondary-color);
+    color: var(--secondary-color);
+}
+
+.section-title{
+    margin: 2rem 0;
+    font-size: 4rem;
+}
+
+.section-info{
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+.circle{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    border-radius: 100%;
+    transform: translate(-50%, -50%) scale(0.8);
+    background: var(--primary-color);
+    border: .1rem solid var(--secondary-color)          ;
+}
+
+.circle span{
+    position: absolute;
+    width: .75rem;
+    height: .75rem; 
+    border-radius: 100%;
+    background: var(--secondary-color);
+    transform: translate(-50%, -50%) 
+}
+
+.circle span:nth-child(1){
+    top: 0;
+    left: 50%;
+}
+
+.circle span:nth-child(2){
+    top: 30%;
+    left: 4%;
+}
+
+.circle span:nth-child(3){
+    top: 30%;
+    right: 1.5%;
+}
+
+.circle span:nth-child(4){
+    bottom: 30%;
+    left: 3%;
+}
+
+.circle span:nth-child(5){
+    bottom: 30%;
+    right: .5%;
+}
+
+.circle span:nth-child(6){
+    bottom: -2.5%;
+    left: 50%;
+}
+
+.circle:nth-child(2){
+    background: var(--alpha-secondary-color);
+    z-index: -1;
+    transform: translate(-50%, -50%) scale(1) rotate(30deg);
+}
